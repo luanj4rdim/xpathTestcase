@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "test:e2e": "cypress run --spec spec.js"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
